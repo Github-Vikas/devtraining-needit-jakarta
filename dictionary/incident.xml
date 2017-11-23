@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element attributes="email_client=true,query_hints=true,hasWorkflow=true,live_feed=true" audit="true" extends="task" label="Incident" max_length="40" name="incident" sizeclass="70" text_index="true" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="demo_choice" max_length="40" name="x_58872_needit_demo_choice" type="string">
+            <choice/>
+        </element>
+        <element label="demo_incident" max_length="32" name="x_58872_needit_demo_incident" reference="incident" type="reference"/>
+    </element>
+</database>
